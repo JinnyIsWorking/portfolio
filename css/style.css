@@ -218,7 +218,7 @@ div#preloader {
 }
 
 .area-padding {
-  padding: 100px 0px 80px;
+  padding: 100px 0px;
 }
 
 .area-padding-2 {
@@ -231,8 +231,8 @@ div#preloader {
 
 .section-headline h2 {
   display: inline-block;
+  font-family: 'DM Serif Display';
   font-size: 40px;
-  font-weight: 600;
   margin-bottom: 70px;
   position: relative;
   text-transform: capitalize;
@@ -253,13 +253,16 @@ div#preloader {
 }
 .sec-head {
   display: inline-block;
-  font-size: 17px;
+  font-size: 24px;
   font-weight: 600;
   margin-bottom: 0;
   margin-left: 10px;
-  padding: 5px 0 10px;
+  padding: 10px 0;
   text-transform: uppercase;
   transition: all 0.4s ease 0s;
+}
+.sec-head>span{
+  font-weight: 700;
 }
 .single-well p{
   margin-left: 10px;
@@ -536,9 +539,9 @@ div#preloader {
   3. About Area
 --------------------------------*/
 
-/* .about-area {
-  background-color: #f9f9f9;
-} */
+.about-area {
+  background: url(../img/about/about_bg.jpg) no-repeat center;
+}
 
 .single-well>a {
   display: block;
@@ -546,7 +549,7 @@ div#preloader {
 .single-well>img{
   display: block;
   border-radius: 20px;
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 .single-well>a>img{
   border-radius: 20px;
@@ -573,6 +576,18 @@ div#preloader {
 
 #about .sec-head{
   margin-left: 0;
+  font-size: 30px;
+  line-height: 1.3em;
+  color: #6199CC;
+}
+
+.well-middle .row{
+  margin-top: 30px;
+}
+
+.intro{
+  font-size: 16px;
+  line-height: 1.6em;
 }
 
 .history{
@@ -586,9 +601,9 @@ div#preloader {
 --------------------------------*/
 
 
-.brand-area {
+/* .brand-area {
   background-color: #f9f9f9;
-}
+} */
 #branding .brand_hover{
   overflow: hidden;
   display: block;
@@ -678,7 +693,7 @@ div#preloader {
 }
 
 #skill.area-padding{
-  padding-top: 0;
+  padding: 0;
 }
 
 /*----------------------------------------
@@ -1210,8 +1225,8 @@ div#preloader {
 }
 
 .project-menu li a.active, .project-menu li a:hover {
-  border-color: #5B7EB5;
-  background: #5B7EB5;
+  border-color: #6199CC;
+  background: #6199CC;
   color: #fff;
   text-decoration: none;
 }
@@ -1824,13 +1839,14 @@ div#preloader {
 }
 
 .single-icon i {
-  font-size: 24px;
-  width: 50px;
-  height: 50px;
-  border: 1px solid #444;
-  line-height: 46px;
+  font-size: 18px;
+  text-align: center;
+  width: 32px;
+  height: 32px;
+  /* border: 1px solid #444; */
+  line-height: 32px;
   border-radius: 50%;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 .single-icon p {
@@ -1849,7 +1865,7 @@ div#preloader {
 
 .fa-mobile-screen:hover,.fa-envelope:hover,.fa-location-dot:hover{
   background-color: #d3e3f1;
-  border: 1px solid #d3e3f1;
+  /* border: 1px solid #d3e3f1; */
 }
 
 /*----------------------------------------*/
@@ -2480,8 +2496,8 @@ span.email-notes {
 }
 .brand_link a:hover{
   color: #FFF;
-  background-color: #5B7EB5;
-  border: 1px solid #5B7EB5;
+  background-color: #6199CC;
+  border: 1px solid #6199CC;
 }
 .spacing{
   padding-top: 100px;
