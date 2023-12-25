@@ -276,6 +276,16 @@
   li.threaded-comments {
     margin-left: 0;
   }
+  .about-area{
+    background-repeat: repeat;
+    background-position: top;
+  }
+  .area-padding{
+    padding: 50px 0;
+  }
+  #home{
+    background: url(../img/main/main.jpg) no-repeat center;
+  }
 }
 
 /* Large Mobile :480px. */
